@@ -1,0 +1,90 @@
+body {
+    font-family: 'kaushan script';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+    
+/*header*/
+header {
+    display: inline-flex;
+}
+.navbar {
+    padding-top: 22px;
+}
+
+a:hover {
+    color: lightgreen;
+}
+li {
+    display: inline-flex;
+    padding-left: 10px;
+}
+.Link {
+    text-decoration: none;
+    color: dimgrey;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+h1 {
+    float: left;
+    font-size: 20px;
+    padding-top: 22px;
+    color: dimgrey;
+}
+.logo {
+    width: 7%;
+    float: left;
+    padding-left: 25px;
+}
+
+/*main*/
+main {
+    margin: 0 30px;
+    height: auto;
+}
+.home-img {
+    height: 1000px;
+    width: 100%;
+}
+
+h2 {
+    margin: 0;
+    position: relative;
+    bottom: 1000px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 250px;
+    line-height: 1.2;
+}
+.banner-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.contact {
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    border: solid lightgrey;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services {
+    border: solid lightgrey;
+    margin-top: 15px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
